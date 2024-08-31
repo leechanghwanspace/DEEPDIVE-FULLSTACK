@@ -1,1 +1,1 @@
-JAVA 문법 선수강 후 SPRING BOOT
+JAVA 문법 선수강 후 SPRING BOOT 수강
