@@ -36,10 +36,11 @@ public class LinkedList<T> implements List<T> {
         size++;
     }
 
+    // get(index) 메서드 추가
     @Override
     public T get(int index) {
         if (index < 0 || index >= size) {
-            throw new IndexOutOfBoundsException();
+            throw new IndexOutOfBoundsException("인덱스가 유효하지 않습니다.");
         }
         Node current = head;
         for (int i = 0; i < index; i++) {
@@ -51,7 +52,7 @@ public class LinkedList<T> implements List<T> {
     @Override
     public void delete(int index) {
         if (index < 0 || index >= size) {
-            throw new IndexOutOfBoundsException();
+            throw new IndexOutOfBoundsException("인덱스가 유효하지 않습니다.");
         }
         if (index == 0) {
             head = head.next;
