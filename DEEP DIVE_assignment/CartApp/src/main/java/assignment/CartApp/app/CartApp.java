@@ -10,7 +10,7 @@ import java.util.Set;
 public class CartApp {
     public static void main(String[] args) {
 
-// 상품 목록 생성
+        //상품 목록 생성
         Set<Product> productSet = new HashSet<>();
         productSet.add(new Product("A01", "IPhone 16", 1500000));
         productSet.add(new Product("A02", "IPhone 16 pro", 1800000));
