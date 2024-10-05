@@ -1,4 +1,4 @@
-# 08. LinkedList.LinkedList 구현하기
+# 08. LinkedList.LinkedList 구현
 
 ### **_기본 과제_**<br>
 
